@@ -325,6 +325,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--white);
 }
 
+.program-image img {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 .program-content {
     padding: 2rem;
 }
@@ -403,6 +411,13 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotateY(90deg);
 }
 
+.gallery-item img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
 .gallery-item.visible {
     opacity: 1;
     transform: rotateY(0deg);
@@ -423,6 +438,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery-item:hover .gallery-placeholder {
     transform: scale(1.1);
+}
+
+.div-btn-view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-view-more {
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid var(--primary-gold);
+    border-radius: 10px;
+    color: var(--primary-maroon);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-view-more:hover {
+    border: 2px solid var(--primary-maroon);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
 }
 
 /* Partners section */
